@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Categories from "@/components/Categories";
 import ServicesGrid from "@/components/ServicesGrid";
 import Stats from "@/components/Stats";
+import Pricing from "@/components/Pricing";
+import Testimonials from "@/components/Testimonials";
 
 const Index = () => {
   return (
@@ -13,6 +15,8 @@ const Index = () => {
         <Stats />
         <Categories />
         <ServicesGrid />
+        <Testimonials />
+        <Pricing />
       </main>
       
       <footer className="border-t py-12 bg-muted/30">
