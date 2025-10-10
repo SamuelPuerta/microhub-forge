@@ -5,6 +5,7 @@ import ServicesGrid from "@/components/ServicesGrid";
 import Stats from "@/components/Stats";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
+import WhyUs from "@/components/WhyUs";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
         <ServicesGrid />
         <Testimonials />
         <Pricing />
+        <WhyUs />
       </main>
       
       <footer className="border-t py-12 bg-muted/30">
